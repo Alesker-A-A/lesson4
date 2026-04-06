@@ -64,6 +64,9 @@ func main() {
     if input == "2" {
       addTask(reader)
     }
+    if input == "1" {
+      showTasks()
+    }
   }
 
 }
